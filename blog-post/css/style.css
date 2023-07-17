@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	color: #172541;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.blog_wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background: #f7fcff;
+	padding: 80px 0;
+}
+
+.head_text {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.blog_box {
+	transition: .3s;
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+.blog_box:hover {
+	box-shadow: 0.5px 20.292px 34px 1px rgba(197, 197, 197, 0.41);
+	transform: translateY(-5px);
+}
+
+.blog_box .blog_img {
+	display: block;
+}
+
+.blog_text {
+	padding: 35px 20px 30px 20px;
+	position: relative;
+	background: #ffffff;
+}
+
+.blog_text span {
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	padding: 7px 20px;
+	color: #ffffff;
+	background: #172541;
+	transition: .3s;
+}
+
+.blog_text a {
+	text-decoration: none;
+}
+
+.blog_text a h2 {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 35px;
+	margin-bottom: 13px;
+}
+
+.blog_para {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.blog_sub {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.blog_sub img {
+    margin-right: 10px;
+    width: 35px !important;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.blog_sub h4 {
+	font-size: 13px;
+	font-weight: 600;
+	padding-left: 5px;
+	margin: 0;
+}
+
+.blog_sub i {
+	margin-right: 10px;
+	color: #fe4c1c;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+
+}
+
+@media (max-width: 1199px) { 
+	.blog_wrapper {
+		height: auto;
+	}
+}
+
+@media (max-width: 991px) {
+	.blog_sub h4 {
+	    font-size: 12px;
+	    padding-left: 4px;
+	}
+
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	
+	.blog_box {
+	    max-width: 65%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	
+	.blog_box {
+	    max-width: 100%;
+	}
+
+	.head_text {
+	    font-size: 30px;
+	}
+
+}
+
+
